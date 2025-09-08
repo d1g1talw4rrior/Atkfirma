@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atkfirma Oy</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', Arial, sans-serif;
+            background: linear-gradient(135deg, #e0e7ff 0%, #f8fafc 100%);
+            color: #222;
+        }
+        header {
+            background: #2563eb;
+            color: #fff;
+            padding: 2rem 0 1.5rem 0;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(37,99,235,0.08);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        header p {
+            margin: 0.5rem 0 0 0;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(37,99,235,0.08);
+            padding: 2rem;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .feature {
+            flex: 1 1 250px;
+            background: #f1f5f9;
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(37,99,235,0.05);
+        }
+        .feature h3 {
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+            color: #2563eb;
+        }
+        .feature p {
+            font-size: 1rem;
+            color: #444;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem 0;
+            background: #2563eb;
+            color: #fff;
+            margin-top: 3rem;
+            border-radius: 0 0 16px 16px;
+        }
+        @media (max-width: 700px) {
+            .features {
+                flex-direction: column;
+            }
+            .container {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="atkfirma.png" alt="Atkfirma Logo" style="width: 80px; height: 80px;"/>
+        <h1>Atkfirma Oy</h1>
+        <p>Innovative IT Solutions for Your Business</p>
+    </header>
+    <div class="container">
+        <h2>Welcome to Atkfirma Oy</h2>
+        <p>
+            Atkfirma Oy delivers modern, reliable, and scalable IT services for companies of all sizes. 
+            Our team of experts helps you grow your business with technology that works for you.
+        </p>
+        <div class="features">
+            <div class="feature">
+                <img src="https://img.icons8.com/color/96/cloud.png" alt="Cloud Solutions"/>
+                <h3>Cloud Solutions</h3>
+                <p>Secure and scalable cloud infrastructure tailored to your needs.</p>
+            </div>
+            <div class="feature">
+                <img src="https://img.icons8.com/color/96/computer-support.png" alt="IT Support"/>
+                <h3>IT Support</h3>
+                <p>Fast and friendly support to keep your business running smoothly.</p>
+            </div>
+            <div class="feature">
+                <img src="https://img.icons8.com/color/96/data-protection.png" alt="Cybersecurity"/>
+                <h3>Cybersecurity</h3>
+                <p>Protect your data and systems with our advanced security solutions.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Atkfirma Oy &mdash; All rights reserved.
+    </footer>
+</body>
+</html>
